@@ -1,7 +1,8 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Toaster } from "sonner";
-import Index from "./pages/Index";
-import { ChatRoom } from "./components/ChatRoom";
+import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import { Toaster } from "sonner"
+import Index from "./pages/Index"
+import { ChatRoom } from "./components/ChatRoom"
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       </BrowserRouter>
       <Toaster position="top-center" />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
